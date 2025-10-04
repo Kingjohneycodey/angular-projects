@@ -1,14 +1,12 @@
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { CounterComponent } from './counter/counter.component';
 
 @Component({
   selector: 'app-root',
-  imports: [ FormsModule ],
+  imports: [ CounterComponent ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  name: string = 'John Doe';
-  age: number = 30;
-  description: string = 'A brief description about John Doe.';
+
 }
